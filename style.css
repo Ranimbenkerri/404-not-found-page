@@ -1,0 +1,132 @@
+ body {
+     font-family: "Inconsolata";
+ }
+ 
+ ul {
+     padding-left: 24px;
+ }
+ 
+ .row {
+     margin: 50px 0px;
+     display: flex;
+     flex-direction: row;
+     margin-left: auto;
+     margin-right: auto;
+     width: 80%;
+ }
+ 
+ .main-title {
+     font-family: 'Space Mono';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 64px;
+     line-height: 95px;
+     letter-spacing: -0.035em;
+     /* Gray 1 */
+     color: #333333;
+ }
+ 
+ .title {
+     font-family: 'Inconsolata';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 24px;
+     line-height: 25px;
+     text-transform: uppercase;
+     margin: 10px 30px;
+     color: #333333;
+ }
+ 
+ img {
+     width: 60%;
+     max-width: 500px;
+     /* min-width: 200px;
+     */
+     margin-right: 20px;
+     margin-left: 20px;
+     object-fit: contain;
+ }
+ 
+ p {
+     font-family: 'Space Mono';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 24px;
+     line-height: 36px;
+     letter-spacing: -0.035em;
+     /* Gray 2 */
+     color: #4F4F4F;
+ }
+ 
+ button.btn {
+     /* text style */
+     font-family: Space Mono;
+     font-size: 14px;
+     font-weight: 600;
+     line-height: 21px;
+     letter-spacing: -0.035em;
+     text-align: left;
+     background: #333333;
+     color: #fff;
+     padding: 24px 43px;
+     cursor: pointer;
+     display: inline-block;
+     margin-top: 40px;
+     margin-bottom: 20px;
+     -webkit-transition: all 0.6s;
+     -moz-transition: all 0.3s;
+     transition: all 0.2s;
+ }
+ 
+ button.btn:hover {
+     background-color: white;
+     color: black;
+     -webkit-transition: all 0.4s;
+     -moz-transition: all 0.4s;
+     transition: all 0.4s;
+ }
+ 
+ .copyright {
+     margin-bottom: 20px;
+     font-size: 15px;
+     font-weight: 700;
+     text-align: center;
+     line-height: 22px;
+     color: #808080;
+ }
+ 
+ @media (max-width:1050px) {
+     .row {
+         width: 97%;
+     }
+     .main-title {
+         font-size: 65px;
+         line-height: 75px;
+     }
+     p {
+         font-size: 20px;
+     }
+     img {
+         width: 50%;
+     }
+ }
+ 
+ @media (max-width: 700px) {
+     .row {
+         flex-direction: column;
+     }
+     img {
+         width: 90%;
+     }
+     .main-title {
+         font-size: 48px;
+         line-height: 70px;
+     }
+     .title {
+         font-size: 24px;
+     }
+     p {
+         font-size: 18px;
+         line-height: 26px;
+     }
+ }
